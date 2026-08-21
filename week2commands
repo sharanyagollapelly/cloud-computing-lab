@@ -1,0 +1,99 @@
+sudo sh VMware-Workstation-Full-26H1-25388281.x86_64/VMware-Workstation-Full-26H1-25388281.x86_64.bundle
+ 1885  gcc --version
+ 1886  sudo apt update
+ 1887  sudo apt install gcc-12 g++-12
+ 1888  gcc-12 --version
+ 1889  gcc --version
+ 1890  gcc-12 --version
+ 1891  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 11
+ 1892  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
+ 1893  sudo update-alternatives --config gcc
+ 1894  gcc-12 --version
+ 1895  sudo apt update -y
+ 1896  sudo apt upgarde -y
+ 1897  sudo apt upgrade -y
+ 1898  sudo sh VMware-Workstation-Full-26H1-25388281.x86_64.bundle
+ 1899  sudo sh VMware-Workstation-Full-26H1-25388281.x86_64.bundle
+ 1900  mkdir flaskapp
+ 1901  cd flaskapp
+ 1902  python3 -m vnev venv
+ 1903  python3 -m vnev vnev
+ 1904  python3 -m venv vnev
+ 1905  python3 --version
+ 1906  sudo apt update
+ 1907  sudo apt install python3.10-venv
+ 1908  python3 -m venv vnev
+ 1909  source vnev/bin/activate
+ 1910  pip install flask gunicorn
+ 1911  gedit app.py
+ 1912  python3 app.py
+ 1913  python app.py
+ 1914  python --version
+ 1915  python3 --version
+ 1916  pip --version
+ 1917  sudo apt install nginx -y
+ 1918  sudo systemctrl start nginx
+ 1919  sudo systemctl start nginx
+ 1920  sudo systemctl enable nginx
+ 1921  sudo systemctl status nginx
+ 1922  pwd
+ 1923  cd flaskapp
+ 1924  ls
+ 1925  source vnev/bin/activate
+ 1926  python3 app.py
+ 1927  java -version
+ 1928  javac --version
+ 1929  sudo apt update
+ 1930  sudo apt install openjdk-21-jdk
+ 1931  javac --version
+ 1932  ls /usr/lib/jvm/
+ 1933  idea.sh
+ 1934  ./idea.sh
+ 1935  cd ~/Downloads/idea-2026.2.0.1/bin
+ 1936  ./idea.sh
+ 1937  cd ~/Downloads/idea-2026.2.0.1/bin
+ 1938  ./idea.sh
+ 1939  cd ~/Downloads/idea-2026.2.0.1/idea-IU-262.8665.337/bin
+ 1940  ./idea.sh
+ 1941  snap --version
+ 1942  sudo snap install postman
+ 1943  sudo snap install postman
+ 1944  postman
+ 1945  ./idea.sh
+ 1946  cd home
+ 1947  cd Home
+ 1948  cd flaskapp
+ 1949  source vnev/bin/activate
+ 1950  gunicorn --bind 0.0.0.0:8000 app:app
+ 1951  sudo nano /etc/systemd/system/flaskapp.service
+ 1952  sudo systemctl daemon-reload
+ 1953  sudo systemctl enable flaskapp
+ 1954  sudo systemctl start flaskapp
+ 1955  sudo systemctl status flaskapp
+ 1956  ls -l /home/rgukt-basar/flaskapp/venv/bin/gunicorn
+ 1957  which gunicorn
+ 1958  sudo nano /etc/systemd/system/flaskapp.service
+ 1959  sudo systemctl daemon-reload
+ 1960  sudo systemctl enable flaskapp
+ 1961  sudo systemctl start flaskapp
+ 1962  sudo systemctl status flaskapp
+ 1963  sudo nano /etc/systemd/system/flaskapp.service
+ 1964  sudo systemctl daemon-reload
+ 1965  sudo systemctl enable flaskapp
+ 1966  sudo systemctl status flaskapp
+ 1967  sudo systemctl start flaskapp
+ 1968  sudo systemctl status flaskapp
+ 1969  sudo nano /etc/nginx/sites-available/flaskapp
+ 1970  python3 app.py
+ 1971  sudo nano /etc/nginx/sites-available/flaskapp
+ 1972  hostname -I
+ 1973  sudo nano /etc/nginx/sites-available/flaskapp
+ 1974  sudo nginx -t
+ 1975  sudo systemctl restart nginx
+ 1976  sudo ufw allow 'Nginx Full'
+ 1977  sudo nano /etc/nginx/sites-available/flaskapp
+ 1978  app.py
+ 1979  python3 app.py
+ 1980  sudo nano /etc/nginx/sites-available/flaskapp
+ 1981  sudo nano /etc/systemd/system/flaskapp.service
+

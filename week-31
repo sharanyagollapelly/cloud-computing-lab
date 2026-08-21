@@ -1,0 +1,17 @@
+sudo apt update
+sudo apt upgarde
+sudo apt install ca-certificates gnupg curl
+ 1949  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | \sudo gpg --dearmor -o /user/share/key rings/cloud.google.gpg
+ 1950  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+ 1951  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | \ sudo tee \etc\opt\soures.list.d/google-cloud-sdk.list
+ 1952  sudo apt install
+ 1953  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | \ sudo tee \etc\opt\soures.list.d/google-cloud-sdk.list
+ 1954  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
+ 1955  sudo apt update
+ 1956  sudo apt install google-cloud-cli
+ 1957  gcloud --version
+ 1958  google init
+ 1959  gcloud init
+ 1960  sudo apt install google-cloud-cli-app-engine-python
+ 1961  sudo apt install google-cloud-cli-app-engine-java
+

@@ -1,0 +1,41 @@
+  //first file
+  
+   GNU nano 6.2                               /etc/systemd/system/flaskapp.service                                        
+[Unit]
+Description=Gunicorn instance for Flask app
+After=network.target
+[Service]
+User=rgukt-basar
+Group=www-data
+WorkingDirectory=/home/rgukt-basar/flaskapp
+Environment="PATH=/home/rgukt-basar/flaskapp/vnev/bin"
+ExecStart=/home/rgukt-basar/flaskapp/vnev/bin/gunicorn --workers 3 --bind unix:/home/rgukt-basar/flaskapp/flaskapp.sock >
+Restart=always
+[Install]
+WantedBy=multi-user.target
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //2nd File
+ 
+ GNU nano 6.2                               /etc/nginx/sites-available/flaskapp                                         
+server{
+listen 80;
+server_name 192.168.99.137;
+location /{
+proxy_pass http://127.0.0.1:5000;
+proxy_set_header Host $host;
+proxy_set_header X-Real-IP $remote_addr;
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_set_header X-Forwarded-Proto $scheme;
+proxy_connect_timeout 60s;
+proxy_read_timeout 60s;
+proxy_send_timeout 60s;
+}
+}
+
